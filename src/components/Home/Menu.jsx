@@ -13,6 +13,7 @@ import icon4 from "./../../assets/icons/Vector4.svg";
 
 export default function Menu() {
   return (
+    <div className="Menu_wrapper">
     <div className="Menu">
       <div>
         <div className="Logo__insight">
@@ -43,7 +44,7 @@ export default function Menu() {
             </li>
 
             <li>
-              <NavLink className="Tag__block" to="/Manage2">
+              <NavLink className="Tag__block" to="/caidat">
                 <img className="icon" src={icon4} alt="123" />
                 <span>Cài đặt</span>
               </NavLink>
@@ -51,7 +52,7 @@ export default function Menu() {
 
             <ul className="Sub__tag">
               <li>
-                <a className="Tag__block" href="gg.com">
+                <a className="Tag__block" href="#">
                   Gói dịch vụ
                 </a>
               </li>
@@ -59,6 +60,8 @@ export default function Menu() {
           </ul>
         </div>
       </div>
+      </div>
+      <p className="copyright">Copyright &#169; 2020 Alta Software </p>
     </div>
   );
 }

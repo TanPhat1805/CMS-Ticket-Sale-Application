@@ -5,7 +5,7 @@ import SoatVe from "./SoatVe/SoatVe";
 import Home from "./../components/Home/Home";
 import Header from "./../components/Layout/Header";
 import Manage from "./../components/Manage/Manage";
-import './../'
+import CaiDat from "./../components/CaiDat/CaiDat";
 import {
   BrowserRouter as Router,
   Route,
@@ -30,6 +30,7 @@ function GlobalStyle() {
             <Route path="/home" element={<Home />} />
             <Route path="/manage" element={<Manage />} />
             <Route path="/soatve" element={<SoatVe />} />
+            <Route path="/caidat" element={<CaiDat />} />
           </Routes>
         </div>
       </div>

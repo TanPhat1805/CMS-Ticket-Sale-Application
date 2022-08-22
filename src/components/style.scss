@@ -37,3 +37,19 @@ body{
     margin-right: 10px;
   }
 }
+.ant-picker{
+  svg {
+    color: #FF993C !important;
+  }
+}
+.ant-pagination-item-active {
+  border-color: #FF993C !important;
+  a{
+    color: #FF993C !important;
+  }
+}
+.title-modal{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}

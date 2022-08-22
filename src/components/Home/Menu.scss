@@ -3,11 +3,6 @@ a{
     color: #1E0D03;
 }
 
-.Menu{
-    width: 252px;
-    height: 289px;
-}
-
 .Logo__insight{
     margin-top: 17px;
     margin-left: 33px;
@@ -189,4 +184,49 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.donut__chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    &-element {
+        flex: 0 0 25%;
+    }
+    canvas{
+        width: 246px !important;
+        height: 246px !important;
+    }
+    .status_dunut{
+        .color-box{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .color {
+            width: 45px;
+            height: 20px;
+            background-color: #4F75FF;
+            margin-right: 10px;
+            }
+            .last{
+                background-color: #FF8A48;
+            }
+    }
+}
+.customdate{
+    right: 85px !important;
+}
+.copyright{
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+.Menu_wrapper{
+    position: relative;
+    height: 100%;
 }

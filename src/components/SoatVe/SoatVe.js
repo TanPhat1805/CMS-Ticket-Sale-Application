@@ -15,6 +15,8 @@ const radioStyle = {
   lineHeight: "30px",
 };
 
+
+
 const onChange = (date, dateString) => {
   console.log(date, dateString);
 };
@@ -36,8 +38,8 @@ function SoatVe() {
               <img className="SearchIcon" src={Search} alt="12" />{" "}
             </button>
           </div>
-          <div class="filter__icon">
-            <a href="gg.com" className="buttom__filter soatve">
+          <div className="filter__icon">
+            <a href="#" className="buttom__filter soatve">
               Chốt đối soát
             </a>
           </div>
